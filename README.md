@@ -1,5 +1,6 @@
 # Virtual_mouse
-import cv2
+
+```import cv2
 import mediapipe as mp
 import pyautogui
 cap = cv2.VideoCapture(0)
@@ -38,3 +39,5 @@ while True:
                         pyautogui.moveTo(index_x, index_y)
     cv2.imshow('Hand Mouse', frame)
     cv2.waitKey(1)
+    ```
+    
